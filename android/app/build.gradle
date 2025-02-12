@@ -117,3 +117,7 @@ dependencies {
         implementation jscFlavor
     }
 }
+dependencies {
+    implementation project(':react-native-razorpay')  // Ensure this is added
+    implementation 'com.razorpay:checkout:1.6.26' // Latest Razorpay SDK
+}
